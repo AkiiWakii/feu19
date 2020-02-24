@@ -1,0 +1,60 @@
+/* Fonts*/
+
+/* Variables */ 
+
+/* Resets */
+body,p,ul,li,a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+li{
+    list-style-type: none;
+}
+/* Base Style*/
+body{
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    font-family:'Orbitron';
+}
+a{
+    color: #ffc636;
+}
+
+
+
+/* Mobile Styles*/
+nav{
+    display: none;
+    padding: 5px 0;
+}
+#hamburger-menu{
+    display: none;
+}
+#hamburger-menu:checked ~ nav{
+    display: block;
+}
+#menu-button{
+    width: 30px;
+}
+.mobile-img{
+    width: 400px;
+    height:300px;
+}
+.button{
+    background-color: #ffc636;
+    border: 2px solid #c5c6c7;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.button a{
+    color: #0b0c10;
+}
+
+/* Tablets*/
+
+/*Desktop and laptops*/
+
+/* Large Screens */
+
